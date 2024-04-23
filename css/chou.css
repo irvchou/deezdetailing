@@ -1,0 +1,120 @@
+/* Service Menu */
+
+.chou-services {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.chou-services h1 { 
+    font-weight: 800;
+    font-style: italic;
+}
+
+.chou-services p {
+    color: black;
+    font-size: 16px;
+}
+
+.chou-services-col h3 {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.chou-row ul {
+    padding-left: 5px;
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.chou-row li::before {
+    content: "\2b";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+}
+
+#chou-FOTL {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(img/beforebarbari.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#chou-FOTLhead {
+    color: rgb(100, 233, 100);
+}
+
+#chou-FOTL:hover {
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(img/afterbarbari.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+
+#chou-indepth {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(img/);
+    background-position: center;
+    background-size: cover;
+}
+
+#chou-indepthhead {
+    color: rgb(233, 104, 100);
+}
+
+#chou-indepth:hover {
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(img/);
+    background-position: center;
+    background-size: cover;
+}
+
+.chou-h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.chou-p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.chou-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between
+}
+
+.chou-services-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.chou-h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.chou-services-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px) {
+    .chou-row {
+        flex-direction: column;
+    }
+}
+
