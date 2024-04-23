@@ -1,5 +1,6 @@
 /* Service Menu */
 
+
 .chou-services {
     width: 90%;
     margin: auto;
@@ -18,11 +19,11 @@
 }
 
 .chou-services-col h3 {
-    font-style: italic;
+    
     color: rgb(0, 0, 0);
     font-size: 25px;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
+    
+    
 }
 
 .chou-row ul {
@@ -41,9 +42,56 @@
     font-family: "Font Awesome 5 Free";
     padding: 0 10px 0 0;
 }
+#chou-basics {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(/assets/img/redlexus.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* #chou-basics:hover (WIP - need after picture)
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(/assets/img/afterbarbari.jpg);
+    background-position: right;
+    background-size: cover;
+} */
+
+#chou-basicshead {
+    color: rgb(255, 255, 255);
+}
+
+#chou-decon {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(/assets/img/gv70foam.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+/* #chou-decon:hover (WIP - need after picture)
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(/assets/img/afterbarbari.jpg);
+    background-position: right;
+    background-size: cover;
+} */
+
+#chou-deconhead {
+    color: rgb(170, 95, 213);
+}
+
+#chou-bofa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(/assets/img/wrx.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+/* #chou-bofa:hover (WIP - need after picture)
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(/assets/img/afterbarbari.jpg);
+    background-position: right;
+    background-size: cover;
+} */
+
+#chou-bofahead {
+    color: rgb(244, 255, 181);
+}
 
 #chou-FOTL {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(img/beforebarbari.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(/assets/img/beforebarbari.jpg);
     background-position: right;
     background-size: cover;
 }
@@ -53,14 +101,14 @@
 }
 
 #chou-FOTL:hover {
-    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(img/afterbarbari.jpg);
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(/assets/img/afterbarbari.jpg);
     background-position: right;
     background-size: cover;
 }
 
 
 #chou-indepth {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(img/);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(/assets/img/indepthbefore.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -70,9 +118,25 @@
 }
 
 #chou-indepth:hover {
-    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(img/);
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(/assets/img/indepthafter.jpg);
     background-position: center;
     background-size: cover;
+}
+
+#chou-paintceramic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(110, 110, 110, 0.45)),url(/assets/img/ceramiccoating.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* #chou-paintceramic:hover (WIP - need after picture)
+    background-image: linear-gradient(rgba(14, 14, 14, 0.788),rgba(145, 145, 145, 0.45)),url(/assets/img/afterbarbari.jpg);
+    background-position: right;
+    background-size: cover;
+} */
+
+#chou-paintceramichead {
+    color: aquamarine;
 }
 
 .chou-h1 {
@@ -109,7 +173,7 @@
 }
 
 .chou-services-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.3);
 }
 
 @media(max-width: 700px) {
@@ -118,3 +182,9 @@
     }
 }
 
+/*Gallery Heading Font*/
+.galleryhead {
+    color: #923b23;
+    text-align: center;
+    padding-top: 25px;
+}
